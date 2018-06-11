@@ -1,10 +1,10 @@
 # Hackintosh
 
-Hi, this is my guide to setup, troubleshoot,... everything about Hackintosh. This guide only support Sierra and High Sierra user!
+Hi, this is my guide to setup, troubleshoot,... everything about Hackintosh. This guide only supports Sierra and High Sierra users!
 
-If you feel something wrong or you want to add any content to my repo, use [Pull request](https://github.com/piiiggg/Hackintosh/pulls).
+If you feel something wrong or you want to add any content to my repo, use a [Pull request](https://github.com/piiiggg/Hackintosh/pulls).
 
-If you need help while install macOS, you can [open an Issue](https://github.com/piiiggg/Hackintosh/issues) or faster way you can go to [this Discord group](https://discord.gg/u8V7N5C) to ask some help.
+If you need help while installing macOS, you can [open an Issue](https://github.com/piiiggg/Hackintosh/issues) or, a faster way, you can go to [this Discord group](https://discord.gg/u8V7N5C) to ask for some help.
 
 - [Setup installer](installer.md)
 - [Setup Clover Bootloader](clover.md)
@@ -19,7 +19,7 @@ If you need help while install macOS, you can [open an Issue](https://github.com
 - [Detecting error](detecting-error.md)
 - [Other tips](tips.md)
 
-Other link:
+Other links:
 
 - [macOS installer direct link](https://sydarchive.com/macos/) - Thank to [Sydney](https://www.reddit.com/u/crowdedconfirm) 
 - [Automated Clover Builds](https://github.com/Dids/clover-builder) - Thank to [Dids](https://github.com/Dids)
