@@ -31,7 +31,7 @@ You can use [Clover Configurator](https://mackie100projects.altervista.org/downl
 ### Boot
 
 - You can set `darkwake` boot flag after install, read [here](https://github.com/piiiggg/Hackintosh/blob/master/tips.md#darkwake-boot-flag)
-- For the first time boot, you need to turn on verbose (-v), debug=0x100 in case you are getting kernel panic
+- For the first time boot, you need to turn on verbose (-v), debug=0x100 in case you are getting kernel panic. You can remove this when you can boot after installing macOS
 - Default Boot Volume: You can set Clover to boot into which volume everytime you boot up
 - Timeout: Timeout for boot option
 
