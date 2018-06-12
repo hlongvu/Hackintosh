@@ -16,11 +16,11 @@ To enable it, open `Terminal.app`, type `sudo trimforce enable` and enter. Follo
 
 ## darkwake boot flag
 
-Here's some [research about darkware](https://www.tonymacx86.com/threads/darkwake-deciphered.236850/) boot flag, you can choose darkwake value 1,2,3 to make your hack sleep better. According to this research, other value are useless now.
+Here's some [research about darkware](https://www.tonymacx86.com/threads/darkwake-deciphered.236850/) boot flag, you can choose darkwake value 1,2,3 to make your hack sleep better. According to this research, other values are useless now.
 
 ## Check NVRAM
 
-If you using AptioMemoryFix.efi then you don't need to check this, AMF.efi can fix native NVRAM. In case your computer don't have native NVRAM support, then you can check it.
+If you using AptioMemoryFix.efi then you don't need to check this, AMF.efi can fix native NVRAM. In case your computer doesn't have native NVRAM support, then you can check it.
 
 Open the terminal and do the following one line at a time:
 
@@ -43,7 +43,7 @@ If you get any output from that last command (after a reboot) then your NVRAM wo
 
 ### macOS
 
-You can easily mount EFI partition by using Clover Configurator, but if you don't have internet to download it. Here's how to mount EFI partition by `Terminal.app`
+You can easily mount EFI partition by using Clover Configurator, but if you don't have the internet to download it. Here's how to mount EFI partition by `Terminal.app`
 
 - Open `Terminal.app`, type `diskutil list` and enter. Find your EFI partition identifier number
 
@@ -54,10 +54,10 @@ You can easily mount EFI partition by using Clover Configurator, but if you don'
 
 ### Windows
 
-On Windows, I only can find a way to mount EFI partition in your main hard drive which mean you can't mount EFI partition from your USB.
+On Windows, I only can find a way to mount EFI partition in your main hard drive which means you can't mount EFI partition from your USB.
 
 - Open Command Prompt or Windows PowerShell, type `mountvol X: /s`
-- Now it's mounted, but Windows Explorer not allow you to touch that EFI partition so you can use [Explorer++](https://explorerplusplus.com/) to edit it
+- Now it's mounted, but Windows Explorer does not allow you to touch that EFI partition so you can use [Explorer++](https://explorerplusplus.com/) to edit it
 
 ### Linux
 

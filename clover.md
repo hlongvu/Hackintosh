@@ -1,10 +1,10 @@
 # Clover Bootloader
 
-After create a bootable macOS installer, it's time to install Clover Bootloader.
+After creating a bootable macOS installer, it's time to install Clover Bootloader.
 
 Download latest version [here](https://github.com/Dids/clover-builder/releases/) (thank to Dids for his automatically project)
 
-Open the package (.pkg), change install location to your bootable drive. Open customise, select to:
+Open the package (.pkg), change install location to your bootable drive. Open customize, select to:
 
 - Setup Clover Bootloader to install for UEFI or BIOS
 - Drivers64UEFI -> apfs_patched, AptioMemoryFix
@@ -21,7 +21,7 @@ You can use [Clover Configurator](https://mackie100projects.altervista.org/downl
 
 #### Patches
 
-- This is where you can add your own patch to rename ACPI device, which for some case can fix audio, Intel ME engine, iGPU,....
+- This is where you can add your own patch to rename ACPI device, which for some case can fix the audio, Intel ME engine, iGPU,...
 - If you want to install macOS for the first time, you won't need any ACPI patch.
 
 #### SSDT
@@ -81,7 +81,7 @@ Replace 83BD74FF FFFF1B
 
 ### SMBIOS
 
-You need to select SMBIOS based on your CPU generation, there's an button at left corner to select and generate Series Number, Board Series Number for each SMBIOS
+You need to select SMBIOS based on your CPU generation, there's a button at left corner to select and generate Series Number, Board Series Number for each SMBIOS
 
 - Sandy Bridge: iMac12,1 & iMac12,2
 - Ivy Bridge: iMac13,1 & iMac13,2

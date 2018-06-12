@@ -7,4 +7,4 @@ To make ethernet working you need know what is your ethernet controller and inst
 - [RealtekRTL8100.kext](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/)
 - [RealtekRTL8111.kext](http://www.insanelymac.com/forum/files/file/88-realtekrtl8111-binary/)
 
-Install kext to /EFI/Clover/kexts/Other and reboot. Then ethernet will working!
+Install kext to /EFI/Clover/kexts/Other and reboot. Then ethernet will work!

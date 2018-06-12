@@ -10,7 +10,7 @@ This guide will show you how to fix audio
 
 ## Remove old audio patch
 
-If this is the first time you try to patch audio then skip this step. If you was try to patch audio with other way, please follow this to remove old audio patch.
+If this is the first time you try to patch audio then skip this step. If you were trying to patch audio with another way, please follow this to remove any old audio patch.
 
 Here's some kext you need to remove:
 
@@ -39,10 +39,12 @@ Reboot!
 
 Now open this [list](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), you can see your layout. Add it to your `config.plist - Devices - Audio - Inject`
 
-For example: My audio codec is `ALC887`, my layout is `layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 33, 99`, I'll try 1 or 2 or.... until I can find the perfect one
+For example:
+
+ My audio codec is `ALC887`, my layout is `layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 33, 99`, I'll try 1 or 2 or.... until I can find the perfect one
 
 Reboot each time you try.
 
 ----------------------------------------------------------------
 
-Thanks CorpNewt for how to remove old audio patch based on his guide!
+Thanks, CorpNewt for how to remove old audio patch based on his guide!

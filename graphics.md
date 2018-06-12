@@ -55,17 +55,17 @@ Remember if your GPU needs `RadeonDeInit` or not
 
 ## Intel
 
-If your Intel HD working properly then HDMI audio will working
+If your Intel HD working properly then HDMI audio will be working
 
 Notes:
 
 ```
-HD540: Supports 1x display, boot fails with 2x display; 2nd display hot plug works
+HD540: Supports 1x display, boot fails with 2x display; 2nd display hotplug works
 ```
 
 ## NVIDIA
 
-If your NVIDIA GPU working properly then HDMI audio will working
+If your NVIDIA GPU working properly then HDMI audio will be working
 
 Notes:
 
@@ -92,7 +92,7 @@ Replace: de 10 e5 0b
 
 ## AMD
 
-If your AMD GPU working properly then HDMI audio will working
+If your AMD GPU working properly then HDMI audio will be working
 
 Notes:
 
@@ -110,8 +110,8 @@ Polaris:
 
 You need to enable Intel HD working together with AMD/NVIDIA for encoding/decoding faster and prevent crashing on Final Cut Pro X
 
-- Follow iGPU guide to enable Intel HD, but set iGPU Multi-monitor to `on` and set primary display to `PEG/PCIe` in BIOS/UEFI settings
-- For Kaby Lake, use `0x59120003` in `config.plist  - Graphics - ig-platform-id` to prevent crashing when boot
+- Follow the iGPU guide to enable Intel HD, but set iGPU Multi-monitor to `on` and set primary display to `PEG/PCIe` in BIOS/UEFI settings
+- For Kaby Lake, use `0x59120003` in `config.plist  - Graphics - ig-platform-id` to prevent crashing when you boot
 
 ------------------------
 

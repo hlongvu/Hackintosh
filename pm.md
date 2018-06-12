@@ -4,7 +4,7 @@ Apple design macOS for their own computer, so macOS doesn't know how to control 
 
 This guide will show you how to make power management working on your hack.
 
-This will also help your hack sleep-albe
+This will also help your hack sleep-able
 
 ## For Haswell or later
 

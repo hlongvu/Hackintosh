@@ -1,8 +1,8 @@
-# macOS installtion
+# macOS installation
 
 ## BIOS/UEFI:
 
-To prepare your PC to install macOS, you need to set your BIOS/UEFI follow those option. Upgrade BIOS to latest version if you can.
+To prepare your PC to install macOS, you need to set your BIOS/UEFI follow those option. Upgrade BIOS to the latest version if you can.
 
 
 ```
@@ -30,13 +30,13 @@ Initial Display Output : PCIe 1 Slot
 Intel iGPU:
 
 ```
-Integrated Graphics : Enabled
+Integrated Graphics: Enabled
 Graphics: IGD/Integrated/iGPU/CPU Graphics
-DVMT Pre-Allocated : 64MB or higher
+DVMT Pre-Allocated: 64MB or higher
 ```
 
 Now your PC is ready to install, booting into Clover and select macOS install. You may need to wait 5-10 minutes till setup screen.
 
-After install, you need to re-install Clover package like you did before you install macOS to your hard drive and copy kext, config.plist to your EFI partition of your hard drive to boot without bootable drive.
+After install, you need to re-install Clover package like you did before you install macOS to your hard drive and copy kext, config.plist to the EFI partition of your hard drive to boot without a bootable drive.
 
 
