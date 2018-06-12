@@ -22,6 +22,7 @@ If you need help while installing macOS, you can [open an Issue](https://github.
 Other links:
 
 - [macOS installer direct link](https://sydarchive.com/macos/) - Thank to [Sydney](https://www.reddit.com/u/crowdedconfirm) 
+- [macOS installer Google Driver direct link](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/edit#gid=90089690)
 - [Automated Clover Builds](https://github.com/Dids/clover-builder) - Thank to [Dids](https://github.com/Dids)
 - [Hackintosh kext/tool repo](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/edit#gid=0)
 - [Latest apfs.efi](https://github.com/piiiggg/apfs.efi)
