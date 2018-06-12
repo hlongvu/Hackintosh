@@ -8,7 +8,7 @@ There are many problem can lead to kernel panic when you install/using hackintos
 
 ![](Picture/kp1.JPG)
 
-At the backtrace, you can clearly see kernel panic causing by your outdated kext (Lilu.kext & AppleALC.kext). So you can boot into Windows and mount your EFI partition by [this way](efi.md) or you can disable inject `outdated kext` by press Space when Clover prepairing to boot and disable kext inject. 
+At the backtrace, you can clearly see kernel panic causing by your outdated kext (Lilu.kext & AppleALC.kext). So you can boot into Windows and mount your EFI partition by [this way](tips.md#how-to-mount-efi-partition) or you can disable inject `outdated kext` by press Space when Clover prepairing to boot and disable kext inject. 
 
 ### DVMT-prealloc lower than 64MB
 
