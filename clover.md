@@ -54,7 +54,7 @@ You can use [Clover Configurator](https://mackie100projects.altervista.org/downl
 - Add this USB port limit patch for High Sierra
 
 ```
-Comment: Change 15 port limit to 24 in XHCI kext 10.13 PB1
+Comment: Change 15 port limit to 24 in XHCI kext 10.13
 Find: 837D8C10
 Name: AppleUSBXHCIPCI
 Replace: 837D8C1B
@@ -81,7 +81,7 @@ Replace 83BD74FF FFFF1B
 
 ### SMBIOS
 
-You need to select SMBIOS based on your CPU generation, there's a button at left corner to select and generate Series Number, Board Series Number for each SMBIOS
+You need to select SMBIOS based on your CPU generation, there's a button at left corner to select and generate Series Number, Board Series Number for each SMBIOS. Some SMBIOS will not boot if you using older macOS version like iMacPro1,1 on Sierra
 
 - Sandy Bridge: iMac12,1 & iMac12,2
 - Ivy Bridge: iMac13,1 & iMac13,2
