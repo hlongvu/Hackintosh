@@ -6,6 +6,7 @@ This guide will show you how to fix audio
 
 - Install [AppleALC.kext](https://github.com/vit9696/AppleALC/releases), [Lilu.kext](https://github.com/vit9696/Lilu/releases) into /EFI/Clover/kexts/Other
 - Your audio codec must be supported on [this list](https://github.com/vit9696/AppleALC/wiki/Supported-codecs) (audio codec can be found in your motherboard website)
+- [Clover Confiugrator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
 ## Remove old audio patch
 
