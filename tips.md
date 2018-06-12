@@ -16,7 +16,7 @@ To enable it, open `Terminal.app`, type `sudo trimforce enable` and enter. Follo
 
 ## darkwake boot flag
 
-Here's some [research about darkware](https://www.tonymacx86.com/threads/darkwake-deciphered.236850/) boot flag, you can choose darkwake value 1,2,3 to make your hack sleep better. According to this research, other values are useless now.
+Here's some [research about darkware](https://www.tonymacx86.com/threads/darkwake-deciphered.236850/) boot flag, you can choose darkwake value 1,2,3 to make your hack sleep better, try each one and see what's better value for your hack. According to this research, other values are useless now.
 
 ## Check NVRAM
 
