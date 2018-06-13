@@ -6,7 +6,7 @@ There are many problems can lead to kernel panic when you install/using Hackinto
 
 ### Outdated kext
 
-![](Picture/kp1.JPG)
+![](Picture/kp1.jpg)
 
 At the backtrace, you can clearly see kernel panic causing by your outdated kext (Lilu.kext & AppleALC.kext). So you can boot into Windows and mount your EFI partition by [this way](tips.md#how-to-mount-efi-partition) or you can disable inject `outdated kext` by press Space when Clover preparing to boot and disable kext inject. 
 
