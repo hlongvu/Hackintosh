@@ -19,21 +19,25 @@ You can use [Clover Configurator](https://mackie100projects.altervista.org/downl
 
 ### Acpi
 
-#### Patches
+##### Patches
 
 - This is where you can add your own patch to rename ACPI device, which for some case can fix the audio, Intel ME engine, iGPU,...
 - If you want to install macOS for the first time, you won't need any ACPI patch.
 
-#### SSDT
+##### SSDT
 
 - If you are using Haswell CPU or higher, turn on PluginType in Generate box.
 
 ### Boot
 
-- You can set `darkwake` boot flag after install, read [here](https://github.com/piiiggg/Hackintosh/blob/master/tips.md#darkwake-boot-flag)
-- For the first time boot, you need to turn on verbose (-v), debug=0x100 in case you are getting kernel panic. You can remove this when you can boot after installing macOS
 - Default Boot Volume: You can set Clover to boot into which volume everytime you boot up
 - Timeout: Timeout for boot option
+
+##### Arguments
+
+- You can set `darkwake` boot flag after install, read [here](https://github.com/piiiggg/Hackintosh/blob/master/tips.md#darkwake-boot-flag)
+- For the first time boot, you need to turn on verbose `-v`, `debug=0x100` in case you are getting kernel panic. You can remove this when you can boot after installing macOS
+- If you using NVIDIA GPU from 710 or lower generation, you will need `nvda_drv=1` too
 
 ### Devices
 
@@ -76,21 +80,21 @@ Replace 83BD74FF FFFF1B
 
 ### Rt Variables
 
-- ROM: UseMacAddr0
-- BooterConfig: 0x28
-- CsrActiveConfig: 0x67
+- ROM: `UseMacAddr0`
+- BooterConfig: `0x28`
+- CsrActiveConfig: `0x67`
 
 ### SMBIOS
 
 You need to select SMBIOS based on your CPU generation, there's a button at left corner to select and generate Series Number, Board Series Number for each SMBIOS. Some SMBIOS will not boot if you using older macOS version like iMacPro1,1 on Sierra
 
-- Sandy Bridge: iMac12,1 & iMac12,2
-- Ivy Bridge: iMac13,1 & iMac13,2
-- Haswell: iMac14,1 & iMac14,2 & iMac14,4 & iMac15,1
-- Broadwell: iMac16,1 & iMac16,2 
-- Skylake: iMac17,1
-- Kaby Lake/Coffee Lake: iMac18,1 & iMac18,2 & iMac18,3
-- Skylake-W: iMacPro1,1
+- Sandy Bridge: `iMac12,1` & `iMac12,2`
+- Ivy Bridge: `iMac13,1` & `iMac13,2`
+- Haswell: `iMac14,1` & `iMac14,2` & `iMac14,4` & `iMac15,1`
+- Broadwell: `iMac16,1` & `iMac16,2`
+- Skylake: `iMac17,1`
+- Kaby Lake/Coffee Lake: `iMac18,1` & `iMac18,2` & `iMac18,3`
+- Skylake-W: `iMacPro1,1`
 
 ### System Parameters
 
