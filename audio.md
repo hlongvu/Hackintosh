@@ -14,24 +14,24 @@ If this is the first time you try to patch audio then skip this step. If you wer
 
 Here's some kext you need to remove:
 
-- realtekALC.kext
-- CloverALC.kext
-- VoodooHDA.kext
-- HDA Blocker.kext
-- HDAEnabler*.kext
+- `realtekALC.kext`
+- `CloverALC.kext`
+- `VoodooHDA.kext`
+- `HDA Blocker.kext`
+- `HDAEnabler*.kext`
 
 Use Finder, search for:
 
-- /Library/Extensions/
-- /System/Library/Extensions/
-- /Volumes/EFI/EFI/CLOVER/kexts/10.xx
-- /Volumes/EFI/EFI/CLOVER/kexts/Other
+- `/Library/Extensions/`
+- `/System/Library/Extensions/`
+- `/Volumes/EFI/EFI/CLOVER/kexts/10.xx`
+- `/Volumes/EFI/EFI/CLOVER/kexts/Other`
 
 Now open your config.plist file in /EFI/Clover/, remove this patch on `KernelAndKextPatches -> KextsToPatch` if you have it
 
-- 10.11-AppleHDA/Realtek ALC...
-- 10.9-10.11-AppleHDA/Realtek ALC1150
-- AppleHDA/Resources/xml&gt;zml
+- `10.11-AppleHDA/Realtek ALC...`
+- `10.9-10.11-AppleHDA/Realtek ALC1150`
+- `AppleHDA/Resources/xml&gt;zml`
 
 Reboot!
 
@@ -41,7 +41,7 @@ Now open this [list](https://github.com/vit9696/AppleALC/wiki/Supported-codecs),
 
 For example:
 
- My audio codec is `ALC887`, my layout is `layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 33, 99`, I'll try 1 or 2 or.... until I can find the perfect one
+ My audio codec is `ALC887`, my layout is `layout 1, 2, 3, 5, 7, 11, 13, 17, 18, 33, 99`, I'll try `1` or `2` or.... until I can find the perfect one
 
 Reboot each time you try.
 
