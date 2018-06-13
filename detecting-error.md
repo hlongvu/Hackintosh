@@ -16,6 +16,12 @@ At the backtrace, you can clearly see kernel panic causing by your outdated kext
 
 macOS doesn't allow you to boot if you set DVMT-prealloc lower than 64MB. You can set it in BIOS/UEFI settings or if your PC/laptop doesn't allow to set it then you need to install [IntelGraphicsDVMTFixup.kext](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup/releases) to bypass it
 
+### IOBluetoothHostControllerUARTTransport
+
+![](Picture/kp3.jpg)
+
+This is not a problem about Bluetooth, you just need to disable Series Port in BIOS/UEFI settings.
+
 ### AppleIntelCPUPowerManagement
 
 ![](Picture/appleintelcpupowermanagement.jpg)
