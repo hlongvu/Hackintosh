@@ -12,7 +12,7 @@ If you using latest Clover Bootloader version then you just need to enable `Plug
 
 ![](Picture/plugintype.png)
 
-## For Ivy Bridge or older/X299, X99
+## For Ivy Bridge or older
 
 Open Terminal.app, type this to download ssdtPRGen.sh:
 
@@ -32,6 +32,9 @@ If the script asking you to open ssdt.dsl, press No.
 Now you can see there's an `ASL Output` location, use Finder and copy that `ssdt.aml` file to `/EFI/Clover/ACPI/patched/` and rename to `SSDT-PM.aml`
 
 You can also use this way to generate Power Management for Haswell or later gen.
+
+## Xeon/i9
+...
 
 ## For 1st generation
 
